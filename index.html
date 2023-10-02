@@ -342,8 +342,8 @@
 												(2022 - 2023):
 											</h4>
 											<p>Viewable at: <a class="text-link"
-													href="https://www.skiddle.com/whats-on/Birmingham/The-Bierkeller-Birmingham/One-Night-In-Nashville/36284646/"
-													target="_blank">https://www.skiddle.com/whats-on/Birmingham/The-Bierkeller-Birmingham/One-Night-In-Nashville/36284646/</a>
+													href="https://www.skiddle.com/whats-on/West-Bromwich/Sandwell-Valley-Country-Park/Anomaly-Summer-Of-Love-Trance-Festival/36530525/"
+													target="_blank">https://www.skiddle.com/whats-on/West-Bromwich/Sandwell-Valley-Country-Park/Anomaly-Summer-Of-Love-Trance-Festival/36530525/</a>
 											</p>
 											<p>The Skiddle event page is a page that queries multiple APIs to display
 												the event's information and also, displays the
@@ -379,12 +379,9 @@
 											</ul>
 
 											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Ticket Box
-												(2019 - Present):
+												(2019 - 2023):
 											</h4>
-											<p>Viewable at: <a class="text-link"
-													href="https://www.skiddle.com/whats-on/Birmingham/The-Bierkeller-Birmingham/One-Night-In-Nashville/36284646/"
-													target="_blank">https://www.skiddle.com/whats-on/Birmingham/The-Bierkeller-Birmingham/One-Night-In-Nashville/36284646/</a>
-											</p>
+											<p>Not viewable anymore as it is retired</p>
 											<p>The Skiddle ticket box is a react app that uses data attributes to get
 												the parameters required to query the event ticket
 												API. It displays a list of tickets retrieved from the API. It also
@@ -421,15 +418,23 @@
 												Rebuild
 												(2023 - Present):
 											</h4>
-											<p>Not deployed publically yet</p>
+											<p>Viewable at: <a class="text-link"
+													href="https://www.skiddle.com/whats-on/West-Bromwich/Sandwell-Valley-Country-Park/Anomaly-Summer-Of-Love-Trance-Festival/36530525/"
+													target="_blank">https://www.skiddle.com/whats-on/West-Bromwich/Sandwell-Valley-Country-Park/Anomaly-Summer-Of-Love-Trance-Festival/36530525/</a>
+											</p>
 											<p>We started a rebuild of the ticket box as managing its many out-of-date
 												dependencies and npm security issue were
 												becoming time-consuming. We decided as a team to use typescript and to
 												build this ticket box using TDD using Vitest and react testing library.
-												To date we've gotten 94.8% of all lines of code covered by tests
+												To date we've gotten 94.8% of all lines of code covered by tests. It's
+												written in the latest function/hook based react with react 18 and has a
+												tiny bundle size of 239kb.
 											</p>
 											<p>The way this project is built is the same as the original ticket box but
-												to a different s3 bucket</p>
+												is deployed to a different s3 bucket</p>
+											<p>This project went live as of 21st September 2023 after a successful 2
+												month AB test and had a 3% increase in revenue vs the old/original
+												ticket box.</p>
 											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies
 												used:</h4>
 											<ul class="list-inline">
@@ -437,6 +442,10 @@
 														class="badge bg-secondary badge-pill">React</span></li>
 												<li class="list-inline-item"><span
 														class="badge bg-secondary badge-pill">Typescript</span></li>
+												<li class="list-inline-item"><span
+														class="badge bg-secondary badge-pill">Vitest/Unit Tests/React
+														Testing Library</span>
+												</li>
 												<li class="list-inline-item"><span
 														class="badge bg-secondary badge-pill">Webpack</span></li>
 												<li class="list-inline-item"><span
